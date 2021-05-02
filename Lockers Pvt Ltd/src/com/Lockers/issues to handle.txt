@@ -1,0 +1,41 @@
+-->	 1. After putting the choice 2 in main menu the business menu pops up...
+	 	User never entered the option to go into the business menu.
+	 	Resolved: There was no break in the switch. Hence after sorting, it was moving to the next case.
+	 	
+-->	 2. On selecting the sorting method in the main menu, the files are being 
+		displayed two times.
+		Resolved
+		
+-->	 3.	Search in being done with file extension only.
+		SOULUTION: SPLIT THE FILE
+
+
+-->  4. Search in the sub directory not returning the path of the directory 
+		found in...
+		
+-->	 5.	Search is only returning one value with the filename and not all files...
+		SOULUTION: TAKE THE FILES IN AN ARRAY AND KEEP PUTTING THEM... IN THE END
+		DISLAY THE ARRAY. TO INCREMENT THE ARRAY BY ONE IN A RECURSIVE ALGORITHM,
+		DECLARE THE ITERATOR VARIABLE OUT OF THE FUNCTION... SO THAT IT UPDATES...
+		OTHERWISE EVERY TIME IT WILL BE RE INITIALIZED.
+		
+-->  6. Adding a file functionality is to be added  *(P2)
+		Done...
+
+-->  7.	Deleting a file from a directory is to be added. *(P3)
+		Done...
+
+-->  8. Victim of speghetti code. Improve the modularity of the program. *(P1)
+		Improved
+ 
+-->	 9.	In searching , in sorting, the display function is to be called. Currently 
+		there is a duplication of the code. 
+		Solved
+		
+--> 10. Documentation is to be done...
+
+--> 11. Exception handling of String when passing directory to be implemented.
+		Done via if else
+
+--> 12. Implement sorting in the files objects... 
+		Done...
